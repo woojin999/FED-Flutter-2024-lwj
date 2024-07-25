@@ -1,0 +1,23 @@
+[ 플러터 명령어 모음 ]
+- 형식 : flutter 명령어
+
+1. 플러터 프로젝트 팩키지 생성명령어
+- flutter create 프로젝트명
+
+2. 플러터 모듈 실행 명령어
+- flutter run (참고: 크롬브라우저는 2번옵션)
+
+3. 플러터 설치 진단 명령어
+- flutter doctor
+
+4. 플러터 빌드 명령어 : 특정플랫폼에 맞게 빌드
+- flutter build 특정플랫폼명령어
+
+5. 플러터 최신버전 업그레이드 명령어
+- flutter upgrade
+
+6. 플러터 의존성 팩키지 설치 명령어
+- flutter pub get (전체설치)
+- flutter pub add 팩키지명 (부분설치)
+-> pubspec.yaml 파일에 의존성 설치 기록됨!
+
