@@ -85,7 +85,7 @@ void main(List<String> args) {
   // -> 순서가 없고 중복되지않는 데이터 집합
   // -> 순서가 없으므로 호출해서 사용하고자 할떄는 List형으로 변환 후 사용한다
   // -> Set형변수.toList()
-  Set<int> evens = {2, 4, 6, 8, 12, 14, 8};
+  Set<int> evens = {2, 4, 6, 8, 12, 14};
   print("짝수Set:$evens");
   // 리스트형으로 형변환
   print("짝수Set을List로 변환후:${evens.toList()}");
